@@ -91,12 +91,6 @@ Contributions are welcome! If you'd like to contribute to the project, please fe
 
 ---
 
-## 📄 **License**
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
-
----
-
 ## 🤝 **Acknowledgments**
 
 - **CIBC** for providing the Q4 fiscal report data.
@@ -109,5 +103,3 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 
 This chatbot is for **informational purposes only**. Always verify financial data with official CIBC reports and documents.
 ```
-
-Just copy this block into your `README.md` file! It includes all the details in one go.
