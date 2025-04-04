@@ -13,10 +13,6 @@ A Streamlit-based chatbot that analyzes CIBC's Q4 Fiscal Report and answers ques
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/cibc-q4-chatbot.git
-cd cibc-q4-chatbot
-```
 
 2. Install the required dependencies:
 ```bash
