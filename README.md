@@ -1,89 +1,115 @@
-# CIBC Q4 Financial Report Chatbot
+Sure! Here's the full README content in a single code block for you to copy easily:
 
-A Streamlit-based chatbot that analyzes CIBC's Q4 Fiscal Report and answers questions about financial metrics and performance indicators.
+```markdown
+# 📊 **CIBC Q4 Financial Report Chatbot**
 
-## Features
+A **Streamlit-based** chatbot that analyzes **CIBC's Q4 Fiscal Report** and answers questions about **financial metrics** and **performance indicators**.
 
-- **PDF Data Extraction**: Automatically extracts financial data from CIBC's Q4 fiscal report PDF
-- **Multi-Section Analysis**: Handles both Financial Highlights and Canadian Personal and Business Banking sections
-- **Interactive Chat Interface**: User-friendly chat interface for asking questions about financial metrics
-- **Smart Answer Matching**: Uses fuzzy string matching to understand and answer questions accurately
-- **Data Visualization**: Displays extracted metrics and provides formatted responses
+---
 
-## Installation
+## 🚀 **Features**
 
-1. Clone the repository:
+- **📄 PDF Data Extraction**: Automatically extracts financial data from CIBC's Q4 fiscal report PDF.
+- **🔍 Multi-Section Analysis**: Handles both **Financial Highlights** and **Canadian Personal and Business Banking** sections.
+- **💬 Interactive Chat Interface**: User-friendly chat interface for asking questions about financial metrics.
+- **🤖 Smart Answer Matching**: Uses fuzzy string matching to understand and answer questions accurately.
+- **📈 Data Visualization**: Displays extracted metrics and provides formatted responses.
 
-2. Install the required dependencies:
+---
+
+## 🛠 **Installation**
+
+1. **Clone the repository**
+
+2. **Install the required dependencies**:
 ```bash
 pip install -r requirements.txt
 ```
 
-Note: This project requires Java to be installed for PDF extraction (required by tabula-py).
+> **Note**: This project requires **Java** to be installed for PDF extraction (required by `tabula-py`).
 
-## Usage
+---
 
-1. Run the Streamlit app:
+## 🚶‍♂️ **Usage**
+
+1. **Run the Streamlit app**:
 ```bash
 python -m streamlit run app.py
 ```
 
-2. Upload your CIBC Q4 Fiscal Report PDF using the file uploader
+2. **Upload your CIBC Q4 Fiscal Report PDF** using the file uploader in the interface.
 
-3. Ask questions about the financial metrics, such as:
+3. **Ask questions** about the financial metrics, such as:
 
-Financial Highlights:
+**📈 Financial Highlights:**
 - "What was the total revenue?"
-- "Tell me about the net income"
+- "Tell me about the net income."
 - "What was the efficiency ratio?"
 
-Canadian Personal and Business Banking:
+**🏦 Canadian Personal and Business Banking:**
 - "What was the personal banking revenue?"
-- "Tell me about business banking performance"
+- "Tell me about business banking performance."
 - "What were the retail banking expenses?"
 
-## Technical Details
+---
+
+## 🧑‍💻 **Technical Details**
 
 The chatbot uses several key technologies and approaches:
 
-- **PDF Processing**: Uses tabula-py for extracting tabular data from PDFs
-- **Natural Language Processing**: Implements fuzzy string matching for question understanding
-- **Data Cleaning**: Robust cleaning and formatting of financial values
-- **Section Awareness**: Intelligent section detection and context-based answering
-- **Dynamic Metric Calculation**: Calculates derived metrics like efficiency ratios
+- **📑 PDF Processing**: Uses `tabula-py` for extracting tabular data from PDFs.
+- **🧠 Natural Language Processing**: Implements fuzzy string matching for question understanding.
+- **🧹 Data Cleaning**: Robust cleaning and formatting of financial values.
+- **🗂 Section Awareness**: Intelligent section detection and context-based answering.
+- **⚙️ Dynamic Metric Calculation**: Calculates derived metrics like **efficiency ratios**.
 
-## Project Structure
+---
+
+## 📂 **Project Structure**
 
 ```
 cibc-q4-chatbot/
 ├── app.py              # Main application file
 ├── requirements.txt    # Project dependencies
-└── README.md          # Project documentation
+└── README.md           # Project documentation
 ```
 
-## Dependencies
+---
 
-- streamlit
-- pandas
-- tabula-py
-- PyPDF2
-- python-difflib
-- Java Runtime Environment (JRE)
+## 📦 **Dependencies**
 
-## Contributing
+- `streamlit` - For building the interactive web interface.
+- `pandas` - Data manipulation and analysis.
+- `tabula-py` - PDF data extraction from tables.
+- `PyPDF2` - To extract text from PDF.
+- `python-difflib` - Fuzzy string matching for question-answering.
+- **Java Runtime Environment (JRE)** - Required for `tabula-py` to function properly.
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+---
 
-## License
+## 🙌 **Contributing**
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Contributions are welcome! If you'd like to contribute to the project, please feel free to submit a **Pull Request**.
 
-## Acknowledgments
+---
 
-- CIBC for providing the Q4 fiscal report data
-- Streamlit for the excellent web app framework
-- Tabula-py for PDF data extraction capabilities
+## 📄 **License**
 
-## Disclaimer
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
-This chatbot is for informational purposes only. Always verify financial data with official CIBC reports and documents. 
+---
+
+## 🤝 **Acknowledgments**
+
+- **CIBC** for providing the Q4 fiscal report data.
+- **Streamlit** for the excellent web app framework.
+- **Tabula-py** for PDF data extraction capabilities.
+
+---
+
+## ⚠️ **Disclaimer**
+
+This chatbot is for **informational purposes only**. Always verify financial data with official CIBC reports and documents.
+```
+
+Just copy this block into your `README.md` file! It includes all the details in one go.
