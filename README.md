@@ -1,6 +1,4 @@
-Sure! Here's the full README content in a single code block for you to copy easily:
 
-```markdown
 # 📊 **CIBC Q4 Financial Report Chatbot**
 
 A **Streamlit-based** chatbot that analyzes **CIBC's Q4 Fiscal Report** and answers questions about **financial metrics** and **performance indicators**.
